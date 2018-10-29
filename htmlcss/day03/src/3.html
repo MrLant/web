@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		.box a {
+			display: block;
+		}
+		.box {
+			width: 520px;
+			margin: 50px auto 0;
+			position: relative;
+		}
+		.box .left {
+			position: absolute;
+			left: 0;
+			top: 50%;
+			margin-top: -18px; 
+		}
+		.box .right {
+			position: absolute;
+			right: 0;
+			top: 50%;
+			margin-top: -18px; 
+		}
+		.box ul {
+			position: absolute;
+			width: 70px;
+			background: rgba(255,255,255,.3);
+			bottom: 20px;
+			left: 50%;
+			margin-left: -35px;
+			border-radius: 5px;
+		}
+		.box ul li {
+			float: left;
+			list-style: none;
+			width: 8px;
+			height: 8px;
+			background-color: #fff;
+			margin: 3px;
+			border-radius: 50%;
+		}
+	</style>
+</head>
+<body>
+	<div class="box">
+		<a href="#">
+			<img src="../images/tb.jpg" alt="">
+		</a>
+		<img src="../images/left.png" alt="" class="left">
+		<img src="../images/right.png" alt="" class="right">
+		<ul>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+	</div>
+</body>
+</html>

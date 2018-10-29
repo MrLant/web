@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		.clearfix:before,.clearfix:after { 
+  			content:"";
+  			display:table;
+		}
+		.clearfix:after {
+ 			clear:both;
+		}
+		.clearfix {
+ 			 *zoom:1;
+		}
+		.warp {
+			background: url('../images/wx.jpg') repeat-x;
+			height: 499px;
+		}
+		.inner {
+			width: 968px;
+			height: 75px;
+			margin: 0 auto;
+		}
+		.inner img {
+			margin-top: 14px;
+			height: 44px;
+			float: left;
+		}
+		.nav {
+			float: right;
+			padding-top: 26px;
+		}
+		.nav ul li {
+			float: left;
+			list-style: none;
+		}
+		.nav li a {
+			background: url('../images/to.png') no-repeat;
+			text-decoration: none;
+			color: #fff;
+			height: 32px;
+			line-height: 32px;
+			display: inline-block;
+			padding-left: 16px;
+			margin: 0 2px;
+		}
+		.nav li span {
+			display: inline-block;
+			background: url('../images/to.png') no-repeat right;
+			padding-right: 15px;
+			font-size: 14px;
+		}
+
+		.nav a:hover, .nav a:hover span {
+			background-image: url(../images/ao.png);
+		}
+	</style>
+</head>
+<body>
+	<div class="warp">
+		<div class="inner">
+			<a href="#"><img src="../images/wxlogo.png" alt=""></a>
+			<div class="nav clearfix">
+				<ul>
+					<li><a href="#"><span>首页</span></a></li>
+					<li><a href="#"><span>帮助与反馈</span></a></li>
+					<li><a href="#"><span>公众平台</span></a></li>
+					<li><a href="#"><span>开放平台</span></a></li>
+					<li><a href="#"><span>微信支付</span></a></li>
+					<li><a href="#"><span>微信网页版</span></a></li>
+					<li><a href="#"><span>表情开放平台</span></a></li>
+					<li><a href="#"><span>微信广告</span></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
